@@ -1,0 +1,3 @@
+# 
+
+{"message":"AgriScan AI API is running with SQLite Database!"}

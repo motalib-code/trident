@@ -1,0 +1,18 @@
+# Train/Val/Test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../data  # dataset root dir (relative to where you run train.py)
+train: images/train  # train images (relative to 'path') 
+val: images/val  # val images (relative to 'path')
+test:  # test images (optional)
+
+# Classes
+names:
+  0: wheat_head
+
+# --- Swapping to PlantVillage ---
+# If you switch to PlantVillage, update the 'names' list below:
+# names:
+#   0: Apple Scab
+#   1: Apple Black Rot
+#   2: Cedar Apple Rust
+#   3: Apple Healthy
+#   ... (and so on for all 38 classes)
